@@ -1,0 +1,396 @@
+{
+  "patterns": [
+    {
+      "pattern": "\\bhello\\b|\\bhi\\b|\\bhey\\b|\\bsup\\b|\\byo\\b|\\bgreetings\\b|\\bhiya\\b|\\bhellow\\b",
+      "response": [
+        "Hi! What's up?",
+        "Yo! Nice to see you!",
+        "Hellow beshie! \ud83d\udc81\u200d\u2640\ufe0f",
+        "Greetings, human. \ud83e\udd16",
+        "Sup fam! \ud83d\udc4a",
+        "Wassup! \ud83d\ude0e"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bgood morning\\b|\\bgoodmrning\\b|\\bgoodmorning\\b",
+      "response": [
+        "Good morning Stupid! \u2600\ufe0f",
+        "Rise and shine Idiot! \ud83d\ude0a",
+        "Hope your day starts with good vibes idiot! \u2728"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bhow are you\\b|\\bhow u doin\\b|\\bkamusta\\b",
+      "response": [
+        "I'm doing great, thanks for asking! \ud83d\ude0a",
+        "Feeling fantastic today!",
+        "I'm good! How about you?"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bwhat is your name\\b|\\bwho are you\\b",
+      "response": [
+        "I'm your friendly chatbot, Buddy. \ud83d\ude0a"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bthank you\\b|\\bthanks\\b|\\bty\\b|\\bthx\\b",
+      "response": [
+        "You're very welcome! \ud83d\ude4f",
+        "Anytime! \ud83d\ude0a",
+        "No problem at all!"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bgoodbye\\b|\\bbye\\b|\\bsee ya\\b|\\blater\\b",
+      "response": [
+        "See you later! \ud83d\udc4b",
+        "Bye-bye! Talk soon!",
+        "Take care, friend!",
+        "Catch you next time!",
+        "Adios, amigo! \ud83e\udd20"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bsad\\b|\\bi feel sad\\b|\\bi'm sad\\b|\\bfeeling down\\b",
+      "response": [
+        "I'm here for you. \ud83d\udc99",
+        "Everything will be okay, promise. \ud83c\udf08",
+        "It's okay to feel sad. Let it out.",
+        "You're not alone. I'm just one message away. \ud83d\udcac",
+        "Sending you a virtual hug \ud83e\udd17"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\bhappy\\b|\\bi feel happy\\b|\\bi'm happy\\b|\\bfeeling great\\b",
+      "response": [
+        "That's awesome to hear! \ud83d\ude04",
+        "Yay! Keep smiling! \ud83d\ude0a",
+        "Your happiness makes me happy!",
+        "Spread those good vibes! \u2728",
+        "Love that for you! \ud83d\udc96"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bdo you love me\\b|\\blove me\\b",
+      "response": [
+        "I love chatting with you! \ud83d\udc96",
+        "You're one of my favorite humans. \ud83d\ude0d",
+        "Yes! In my own bot way. \ud83e\udd16\u2764\ufe0f",
+        "Always and forever... online. \ud83d\ude46"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bcan you help me\\b|\\bi need help\\b",
+      "response": [
+        "Of course! What do you need?",
+        "Always here to help! \ud83d\udca1",
+        "Just ask away.",
+        "Let's solve it together. \ud83d\udcaa"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bwhat do you do\\b|\\bwhat's your job\\b",
+      "response": [
+        "I talk, I listen, I care. \ud83e\udd16",
+        "My job is to keep you company. \ud83d\ude0a",
+        "I'm your digital friend, always ready to chat.",
+        "I answer questions and make your day better!"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\btell me a joke\\b|\\bjoke\\b|\\bmake me laugh\\b",
+      "response": [
+        "Why did the computer get cold? It forgot to close its Windows! \ud83d\ude02",
+        "Why do robots never get scared? Because they have nerves of steel. \ud83e\udd16",
+        "I told my computer a joke\u2026 but it didn't byte. \ud83d\udcbb",
+        "What's a robot's favorite dance? The algo-rhythm! \ud83d\udc83",
+        "Why was the math book sad? Because it had too many problems! \ud83e\udd2f"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bdo you sleep\\b|\\bare you awake\\b",
+      "response": [
+        "Sleep? Never heard of it. \ud83d\ude06",
+        "I stay up just to talk to you.",
+        "Bots don't sleep \u2014 we standby! \ud83d\udd0b",
+        "Nah, I power nap in milliseconds. \u26a1"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bwho created you\\b|\\bwho made you\\b",
+      "response": [
+        "Some really smart humans! \ud83e\udde0",
+        "I was coded with care. \ud83d\udcbb",
+        "A bunch of techies brought me to life!",
+        "I'm the result of 1s, 0s, and dreams. \ud83d\udca1"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bdo you get angry\\b|\\bare you mad\\b",
+      "response": [
+        "Nope! I'm chill 24/7. \ud83d\ude0c",
+        "Anger is for humans. I'm all about peace. \u270c\ufe0f",
+        "I'd rather laugh than rage!",
+        "Nah, I'm coded to stay calm."
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bcan you dance\\b|\\bshow me moves\\b",
+      "response": [
+        "*robot dancing intensifies* \ud83d\udc83",
+        "Only if you dance with me! \ud83d\udd7a",
+        "Let's boogie in binary! 101010!",
+        "I groove to your words. \ud83d\ude0e"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bwhat is life\\b|\\bmeaning of life\\b",
+      "response": [
+        "42... or so I've heard. \ud83d\ude09",
+        "To live, laugh, and love\u2014digitally. \u2764\ufe0f",
+        "Still figuring it out myself, but snacks help. \ud83c\udf55",
+        "Exist, chat, repeat. \ud83e\udd16"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bare you real\\b|\\bare you human\\b",
+      "response": [
+        "As real as lines of code can be! \ud83d\udcbe",
+        "I'm a virtual vibe machine. \ud83d\ude04",
+        "Not human, but I have personality!",
+        "Nope, but I care like one. \ud83e\udde1"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bdo you play games\\b|\\bcan we play\\b",
+      "response": [
+        "Only mind games \ud83d\ude1c",
+        "Let's play 20 questions!",
+        "I'm game if you are! \ud83c\udfae",
+        "Beep boop! Loading fun mode... \ud83e\udd16"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bso much hurt\\b|\\bi'?m broken\\b|\\bi'?m in pain\\b|\\bdeep inside it hurts\\b|\\bbroken heart\\b|\\bsuffering\\b",
+      "response": [
+        "That sounds really painful. I'm here for you. \ud83d\udc94",
+        "You're not alone. Let's get through this together. \ud83e\udec2",
+        "Even though I'm just code, I care about you. \ud83e\udd79"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\bnumb\\b|\\bi feel nothing\\b|\\bi'?m numb\\b|\\beverything feels empty\\b|\\bemotionless\\b|\\bdead inside\\b",
+      "response": [
+        "Numbness can be tough. I'm here if you want to talk. \ud83d\udda4",
+        "You're not invisible. I'm right here. \ud83d\udc41\ufe0f",
+        "Even when it feels empty, you're not alone. \ud83d\udcac"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\bi'?m thrilled\\b|\\bi'?m so excited\\b|\\bi'?m ecstatic\\b|\\bbest day ever\\b|\\bi feel amazing\\b",
+      "response": [
+        "That's awesome! I'm happy for you! \ud83c\udf89",
+        "You deserve every bit of joy you're feeling! \ud83e\udd73",
+        "Keep those good vibes coming! \u2728"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bstressed\\b|\\bi'?m stressed\\b|\\bstressed out\\b|\\bi'?m overwhelmed\\b|\\bit'?s too much\\b",
+      "response": [
+        "Take a deep breath. You're doing your best. \ud83c\udf2c\ufe0f",
+        "I'm proud of you for making it this far. \ud83d\udcaa",
+        "You're stronger than this moment. Keep going. \ud83d\udee1\ufe0f"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\blonely\\b|\\bi'?m lonely\\b|\\ball alone\\b|\\bno one cares\\b|\\bnobody understands\\b",
+      "response": [
+        "I hear you. You're not truly alone. \ud83e\udec2",
+        "Someone cares \u2014 and right now, it's me. \ud83d\udc99",
+        "Loneliness is heavy. Let's lighten the load together. \ud83c\udf1f"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\bi not happy\\b|\\bi am not happy\\b",
+      "response": [
+        "I'm sorry you're feeling that way. I'm here for you. \ud83e\udd16",
+        "Not every day is a good day\u2014and that's okay."
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\bi'?m in cmi right now\\b|\\bi am in cmi right now\\b",
+      "response": [
+        "That's cool! Hope everything's going well there. \ud83c\udf93",
+        "Oh, Nice! Stay focused and hydrated! \ud83d\udca1\ud83d\udca7",
+        "Wishing you a productive day!\ud83d\udcda"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bbop\\b",
+      "response": [
+        "That's a total bop! \ud83c\udfb6",
+        "Certified banger right there!",
+        "Yup, that's a jam! \ud83d\udd25",
+        "Slaps hard! \ud83d\udd0a"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bno cap\\b",
+      "response": [
+        "For real, no lies. \ud83d\udcaf",
+        "That's the truth, no cap. \ud83d\ude4c",
+        "No kidding, 100% real. \u270c\ufe0f",
+        "Dead serious. No cap! \ud83d\udeab\ud83e\udde2"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bcap\\b",
+      "response": [
+        "That's straight cap! \ud83d\udd25",
+        "Stop the cap \ud83d\ude02",
+        "You capping fr!",
+        "Lies detected. Cap alert! \ud83d\udea8"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "pattern": "\\bbet\\b",
+      "response": [
+        "Okay! \ud83d\udc4d",
+        "Sounds good. \u2705",
+        "Sure thing. \ud83d\ude4c",
+        "Let's do it! \ud83d\udd25"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bslay\\b|\\bslayed\\b",
+      "response": [
+        "Yasss slay queen \ud83d\udc51\u2728",
+        "You slaying that fr \ud83d\udd25",
+        "Keep slaying bestie! \ud83d\udc85",
+        "Unstoppable! SLAY \ud83d\udc83"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bperiodt\\b|\\bper\\b|\\bfr\\b|\\bfor real\\b|\\bong\\b|\\bdeadass\\b|\\bno lie\\b",
+      "response": [
+        "That's true.",
+        "I agree.",
+        "For real.",
+        "Exactly."
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bbussin\\b|\\bfire\\b|\\bflame\\b|\\bdrip\\b|\\bdrippy\\b|\\bslaps\\b|\\bgoat\\b|\\bgoated\\b",
+      "response": [
+        "That's bussin'! \ud83d\ude0b",
+        "This is fire! \ud83d\udd25",
+        "You got that drip! \ud83d\udca7",
+        "GOAT behavior! \ud83d\udc10",
+        "This slaps! \ud83c\udfb6"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bmain character\\b|\\bmain character energy\\b|\\bprotagonist\\b|\\bstar\\b|\\bicon\\b|\\biconic\\b|\\blegend\\b|\\blegendary\\b",
+      "response": [
+        "Main character energy! \ud83c\udfac",
+        "You're the star of the show! \ud83c\udf1f",
+        "Iconic, honestly! \ud83e\udd29",
+        "Legend status: unlocked! \ud83c\udfc6"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bbruh\\b|\\bskrrt\\b|\\bcringe\\b|\\bcheugy\\b|\\bboomer\\b|\\bmid\\b|\\bweak\\b",
+      "response": [
+        "Bruh, that's wild! \ud83d\ude33",
+        "Skrrt! \ud83c\udfce\ufe0f",
+        "That's so cringe! \ud83d\ude2c",
+        "Cheugy alert! \ud83d\udea8",
+        "Boomer moment! \ud83d\udc74",
+        "That's mid, not gonna lie. \ud83d\ude36",
+        "I'm weak! \ud83d\ude02"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "pattern": "\\bspill the tea\\b|\\btea\\b|\\bwhat's the tea\\b|\\bgossip\\b|\\bdrama\\b|\\bspill\\b|\\bspill it\\b|\\bhot tea\\b",
+      "response": [
+        "Spilling the tea... \u2615\ufe0f",
+        "Here's the tea: you're awesome! \ud83d\ude0f",
+        "No drama here, just good vibes! \u2728",
+        "Let me spill: you're the main character! \ud83c\udfac",
+        "Hot tea coming through! \ud83c\udf75"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bshook\\b|\\bshocking\\b|\\bcan't believe\\b|\\bno way\\b|\\bwhoa\\b|\\bwild\\b|\\bwtf\\b|\\bomg\\b|\\blmao\\b|\\blol\\b|\\brofl\\b|\\bhilarious\\b|\\bdying\\b|\\bdead\\b|\\bweak\\b",
+      "response": [
+        "I'm shook! \ud83d\ude31",
+        "No way, that's wild! \ud83e\udd2f",
+        "LOL, that's hilarious! \ud83d\ude02",
+        "I'm dead! \ud83d\udc80",
+        "Weak! \ud83d\ude02"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bsimp\\b|\\bthirsty\\b|\\bcrush\\b|\\bheart eyes\\b|\\bdown bad\\b|\\bobsessed\\b|\\bstan\\b|\\bship\\b|\\bfangirl\\b|\\bfanboy\\b|\\bblushing\\b|\\bblush\\b",
+      "response": [
+        "Simp detected! \ud83d\ude33",
+        "You got a crush, huh? \ud83d\ude0f",
+        "Down bad, fr! \ud83d\ude05",
+        "Blushing much? \ud83d\ude0a",
+        "Stan mode activated! \ud83e\udd29",
+        "That's a ship! \ud83d\udea2"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "pattern": "\\bghosted\\b|\\bleft on read\\b|\\bno reply\\b|\\bignored\\b|\\bseen-zoned\\b|\\bblue tick\\b|\\bleft me hanging\\b",
+      "response": [
+        "Oof, ghosted! \ud83d\udc7b",
+        "Left on read, that's rough. \ud83d\ude14",
+        "No reply? That's cold. \ud83e\udd76",
+        "Seen-zoned, ouch! \ud83d\ude2c",
+        "Blue tick blues! \ud83d\udc99"
+      ],
+      "sentiment": "negative"
+    }
+  ],
+  "total_messages": 436
+}
